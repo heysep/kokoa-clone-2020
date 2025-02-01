@@ -17,8 +17,8 @@
 
 .nav__notification{
     background-color: tomato;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@
     color: white;
     font-weight: 600;
     position: absolute;
-    left: 15px;
+    left: 130px;
     bottom: 15px;
 }
 
@@ -42,4 +42,17 @@ input:focus{
 a{
     color: inherit;
     text-decoration: none;
+}
+
+.nav__notification1{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -5px;
+    bottom: 25px;
 }
